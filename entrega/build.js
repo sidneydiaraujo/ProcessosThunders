@@ -3,7 +3,7 @@ const { applyTheme } = require("/root/.claude/skills/synced/be72551b-f99c-4a63-8
 const A = (f) => __dirname + "/assets/" + f;
 // Paleta — Manual de Marca Thunders, p.13
 const NAVY="001845", AZUL="002872", ROYAL="03399D", CYAN="09C6FF", TEAL="00A0D1", BG="F3F7FE", WHITE="FFFFFF";
-const HEAD="DM Sans", BODY="Elza"; // Manual p.20-22
+const HEAD="DM Sans", BODY="DM Sans"; // Manual p.20 (Elza, p.21, trocada por DM Sans: glifos quebrados na máquina do usuário)
 const THEME={name:"Thunders",headFontFace:HEAD,bodyFontFace:BODY,colors:{dk1:NAVY,lt1:WHITE,dk2:AZUL,lt2:BG,accent1:ROYAL,accent2:TEAL,accent3:CYAN,accent4:AZUL,accent5:NAVY,accent6:BG,hlink:ROYAL,folHlink:AZUL}};
 
 const pres = new pptxgen(); pres.layout="LAYOUT_WIDE"; pres.theme={headFontFace:HEAD,bodyFontFace:BODY};
